@@ -5,6 +5,8 @@
 }
 
 
+/* image scales down when viewport shrinks */
+
 .responsive-image {
     max-width: 100%;
     height: auto;
@@ -12,5 +14,30 @@
 
 
 .profile-img-container {
-    margin-top: 100px;
+    margin-top: 80px;
+    text-align: center;
 }
+
+
+/* centers h1 element */
+
+.hello-container h1{
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Centers elements at the smallest viewport */
+
+.col-12 img {
+    text-align: center;
+    width: 570;
+    width: 570;
+}
+
+
+/* At the viewport of 576 or less  */
+
+.text-container p {
+    margin-top: 40px;
+}
+
