@@ -48,6 +48,7 @@ p {
 }
 
 
- h1 a {
+ h1 a:link {
     text-decoration: underline;
 }
+
